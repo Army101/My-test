@@ -1,0 +1,33 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Welcome.qml</file>
+        <file>Menuscreen.qml</file>
+        <file>Image/welcome.png</file>
+        <file>Image/Back.png</file>
+        <file>Programscreen.qml</file>
+        <file>Headerline.qml</file>
+        <file>Image/wifi.png</file>
+        <file>Image/setting.png</file>
+        <file>Image/anh1.png</file>
+        <file>Image/anh2.png</file>
+        <file>Image/anh3.png</file>
+        <file>Image/anh4.png</file>
+        <file>Image/anh5.png</file>
+        <file>Image/anh6.png</file>
+        <file>Image/anh7.png</file>
+        <file>Program/Steam.qml</file>
+        <file>Program/Cleaning.qml</file>
+        <file>Program/TypesofHeating.qml</file>
+        <file>Program/Microwave.qml</file>
+        <file>Program/Meals.qml</file>
+        <file>Program/Favourites.qml</file>
+        <file>Program/BackButton.qml</file>
+        <file>Program/Setting.qml</file>
+        <file>Image/exit.png</file>
+        <file>Program/Programscreen.qml</file>
+        <file>Image/lock.png</file>
+        <file>Image/more.png</file>
+        <file>Image/no_wifi.png</file>
+    </qresource>
+</RCC>

@@ -1,0 +1,50 @@
+import QtQuick 2.0
+
+Item {
+
+    Rectangle {
+        id: rectangle
+        height: parent.height
+        width: parent.width
+        anchors {
+            top: parent.top
+            right: parent.right
+        }
+        color: "#1BA6DF"
+
+        Image {
+            id: image
+            width: 356
+            height: 256
+            anchors.centerIn: parent
+            source: "qrc:/Image/welcome.png"
+        }
+
+        Text {
+            anchors {
+                top: image.bottom
+                topMargin: 20
+                horizontalCenter: parent.horizontalCenter
+            }
+            x:700
+            y:230
+            text: "Welcome....."
+            font.pixelSize: 30
+            color: "black"
+
+        }
+
+        MouseArea {
+            anchors.fill: parent
+            onClicked: {
+                stackView.push( "Menuscreen.qml" )
+            }
+
+        }
+    }
+
+
+
+
+
+}
